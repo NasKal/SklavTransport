@@ -28,7 +28,7 @@ const Services = () => {
   return (
     <section id="services" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
-        <FadeInSection>
+        <FadeInSection threshold={0.2}>
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Οι Υπηρεσίες Μας</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
@@ -39,7 +39,7 @@ const Services = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <FadeInSection key={index} delay={index * 100}>
+            <FadeInSection threshold={0.2} key={index} delay={index * 100}>
               <div className="bg-white p-8 rounded-lg shadow-sm transition-transform hover:-translate-y-1 duration-300">
                 <div className="inline-block p-3 bg-blue-100 rounded-lg mb-5">
                   {service.icon}
