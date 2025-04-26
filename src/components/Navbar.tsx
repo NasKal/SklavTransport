@@ -37,15 +37,15 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <Truck className="h-8 w-8 text-[#248BE5] mr-2" />
-          <span className="text-xl font-bold">Σκλαβενίτης</span>
+          <span className="text-xl font-bold">ΣΚΛΑΒΕΝΙΤΗΣ</span>
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
-          <a href="#" onClick={handleNavClick} className="text-[#248BE5] font-medium">Αρχική</a>
-          <a href="#services" onClick={handleNavClick} className="text-gray-700 hover:text-[#248BE5] transition-colors">Υπηρεσίες</a>
-          <a href="#about" onClick={handleNavClick} className="text-gray-700 hover:text-[#248BE5] transition-colors">Σχετικά</a>
-          <a href="#contact" onClick={handleNavClick} className="text-gray-700 hover:text-[#248BE5] transition-colors">Επικοινωνία</a>
+          <a href="#" onClick={handleNavClick} className="text-[#248BE5] font-medium">ΑΡΧΙΚΗ</a>
+          <a href="#services" onClick={handleNavClick} className="text-gray-700 hover:text-[#248BE5] transition-colors">ΥΠΗΡΕΣΙΕΣ</a>
+          <a href="#about" onClick={handleNavClick} className="text-gray-700 hover:text-[#248BE5] transition-colors">ΣΧΕΤΙΚΑ</a>
+          <a href="#contact" onClick={handleNavClick} className="text-gray-700 hover:text-[#248BE5] transition-colors">ΕΠΙΚΟΙΝΩΝΙΑ</a>
 
         </div>
 
