@@ -66,10 +66,10 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white py-4 px-4 shadow-lg absolute w-full">
           <div className="flex flex-col space-y-4">
-            <a href="#" onClick={handleNavClick} className="text-[#248BE5] font-medium py-2 border-b border-gray-100">Αρχική</a>
-            <a href="#services" onClick={handleNavClick} className="text-gray-700 py-2 border-b border-gray-100">Υπηρεσίες</a>
-            <a href="#about" onClick={handleNavClick} className="text-gray-700 py-2 border-b border-gray-100">Σχετικά</a>
-            <a href="#contact" onClick={handleNavClick} className="text-gray-700 py-2 border-b border-gray-100">Επικοινωνία</a>
+            <a href="#" onClick={handleNavClick} className="text-[#248BE5] font-medium py-2 border-b border-gray-100">ΑΡΧΙΚΗ</a>
+            <a href="#services" onClick={handleNavClick} className="text-gray-700 py-2 border-b border-gray-100">ΥΠΗΡΕΣΙΕΣ</a>
+            <a href="#about" onClick={handleNavClick} className="text-gray-700 py-2 border-b border-gray-100">ΣΧΕΤΙΚΑ</a>
+            <a href="#contact" onClick={handleNavClick} className="text-gray-700 py-2 border-b border-gray-100">ΕΠΙΚΟΙΝΩΝΙΑ</a>
           </div>
         </div>
       )}
