@@ -108,7 +108,7 @@ const adjustedScrollY = Math.max(0, scrollY - (isMobile ? mobileOffset : desktop
             <div className="bg-blue-100 absolute top-0 right-0 w-4/5 h-4/5 -z-10 rounded-tl-3xl"></div>
             <animated.div style={truckAnimation} className="relative z-30">
               <img 
-                src="https://github.com/NasKal/SklavTransport/blob/assets/truck-sklav.svg" 
+                src="https://github.com/NasKal/SklavTransport/blob/main/truck-sklav.svg" 
                 alt="Εικόνα φορτηγού μεταφορών" 
                 className="w-full h-auto"
               />
