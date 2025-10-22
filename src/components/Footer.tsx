@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <Truck className="h-8 w-8 text-[#248BE5] mr-2" />
-              <span className="text-xl font-bold">Σκλαβενίτης</span>
+              <span className="text-xl font-bold">Transport</span>
             </div>
             <p className="text-gray-400 mb-6">
               Αξιόπιστες λύσεις μεταφορών και logistics για επιχειρήσεις όλων των μεγεθών από το 1996.
@@ -65,7 +65,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-[#248BE5] mr-3" />
-                <span className="text-gray-400">contact@sklavenitis-transport.gr</span>
+                <span className="text-gray-400">contact@transport.gr</span>
               </li>
               <li className="flex items-center">
                 <Clock className="h-5 w-5 text-[#248BE5] mr-3" />
