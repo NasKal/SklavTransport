@@ -11,7 +11,7 @@ const TopBar = () => {
             <span>+30 210-555-0132</span>
           </div>
           <span className="hidden md:inline-block">•</span>
-          <span className="hidden md:inline-block">contact@sklavenitis-transport.gr</span>
+          <span className="hidden md:inline-block">contact@transport.gr</span>
         </div>
         <div className="flex items-center">
           <span>Δευ-Παρ: 08:00 - 17:00</span>
