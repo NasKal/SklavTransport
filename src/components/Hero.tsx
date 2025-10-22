@@ -83,12 +83,12 @@ const adjustedScrollY = Math.max(0, scrollY - (isMobile ? mobileOffset : desktop
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 md:pr-12 mb-12 md:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Σκλαβενίτης{' '}<br></br>
+              Μεταφορική Transport{' '}<br></br>
               <span className="text-gray-800">Η λύση</span> για τις{' '}
               <span className="text-[#248BE5]">επιχειρηματικές</span> σας ανάγκες
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Η Σκλαβενίτης Μεταφορική είναι μία από τις κορυφαίες εταιρείες logistics στην Ελλάδα. 
+              Η Μεταφορική Transport είναι μία από τις κορυφαίες εταιρείες logistics στην Ελλάδα. 
               Προσφέρουμε έξυπνες λύσεις εφοδιαστικής αλυσίδας, τεχνολογία και προσωπική εξυπηρέτηση 
               που συνδέουν την επιχείρησή σας με τις αγορές σε όλη την Ελλάδα και την Ευρώπη.
             </p>
