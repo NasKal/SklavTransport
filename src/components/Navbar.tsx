@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <Truck className="h-8 w-8 text-[#248BE5] mr-2" />
-          <span className="text-xl font-bold">ΣΚΛΑΒΕΝΙΤΗΣ</span>
+          <span className="text-xl font-bold">TRANSPORT</span>
         </div>
 
         {/* Desktop Navigation */}
