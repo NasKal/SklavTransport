@@ -40,7 +40,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-[#248BE5] mr-4 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-gray-600">contact@sklavenitis-transport.gr</p>
+                    <p className="text-gray-600">contact@transport.gr</p>
                   </div>
                 </div>
                 
